@@ -1,6 +1,6 @@
 # WeatherApp-Node
 ## This is a weather application made with node and openweathermap.org API
-# To run it locally:-
+# To run it locally follow the steps :
 ### * Clone this repo or download the zip file
 ### * Open this folder in VSCode or any IDE
 ### * Now open the terminal and type npm install it install all the dependencies 
