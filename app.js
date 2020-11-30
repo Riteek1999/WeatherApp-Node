@@ -5,7 +5,7 @@ const weatherRoute = require("./routes/weather");
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: true}));
 
 
 app.get("/", weatherRoute);

@@ -1,0 +1,96 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #085078, #85d8ce);
+}
+.container {
+    margin: 4rem auto;
+}
+header {
+    height: 5rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+header i {
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    margin-bottom: 10rem;
+}
+.weather-title{
+    margin: 2rem 0;
+    text-align: center;
+}
+.weather-title h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+form{
+    padding: 0.5rem;
+}
+form input {
+    margin-left: 20%;
+    height: 2.5rem;
+    width: 60%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid #817676;
+}
+.weather{
+    text-align: center;
+}
+.weather .description {
+    text-transform: capitalize;
+}
+.weather .temp {
+    margin-top: 2rem;
+    font-size: 2rem;
+    position: relative;
+}
+.description .img {
+    align-items: center;
+    justify-content: center;
+}
+.btn3d {  
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+.btn3d.btn-info {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #39B3D7;
+}
+
+.btn3d.btn-info:active,
+.btn3d.btn-info.active {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #39B3D7;
+}
