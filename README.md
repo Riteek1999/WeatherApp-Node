@@ -1,5 +1,5 @@
 # WeatherApp-Node
-## This is a weather application made with node and openweathermap.org
+## This is a weather application made with node and openweathermap.org API
 # To run it locally:-
 ### * Clone this repo or download the zip file
 ### * Open this folder in VSCode or any IDE
