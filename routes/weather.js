@@ -17,7 +17,6 @@ weatherRoute.post("/",  async(req, res)=>{
         const api_url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric&mode=json`;
         try{
             await fetch(api_url).then(res=>res.json()).then(data=>{
-                console.log(data);
                 if(data.cod==404){
                     res.render('index', {
                         city:'notfound',

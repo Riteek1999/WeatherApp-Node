@@ -67,10 +67,10 @@ form input {
 	top: -6px;
 	border: 0;
 	transition: all 40ms linear;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-bottom: 10px;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .btn3d:active:focus,
@@ -93,4 +93,23 @@ form input {
 .btn3d.btn-info.active {
 	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
 	background-color: #39B3D7;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+@media only screen and (max-device-width: 480px) {
+    .btn3d {  
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        top: -6px;
+        border: 0;
+        transition: all 40ms linear;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
