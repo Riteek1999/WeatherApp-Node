@@ -5,4 +5,5 @@
 ### * Open this folder in VSCode or any IDE
 ### * Now open the terminal and type 'npm install' it will install all the dependencies 
 ### * Then type 'npm start' this will start the server
-### * Now open http://localhost:3000/ in your browser and enjoy this app
+### * Now open http://localhost:3000/ in your browser and enjoy this app.
+# Deployed in Heroku 
