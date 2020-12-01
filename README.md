@@ -7,4 +7,4 @@
 ### * Then type 'npm start' this will start the server
 ### * Now open http://localhost:3000/ in your browser and enjoy this app.
 # Deployed in Heroku ![](https://www.herokucdn.com/deploy/button.png)
-# Live link to the app https://weather-app-riteek.herokuapp.com/
+### Live link to the app https://weather-app-riteek.herokuapp.com/
