@@ -12,7 +12,7 @@ weatherRoute.get("/", (req,res)=>{
     });
 });
 weatherRoute.post("/",  async(req, res)=>{
-        let api_key = "f896bc3d2752d19080662cff6c06e738";
+        let api_key = process.env.API_KEY;
         let city = req.body.city;
         const api_url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric&mode=json`;
         try{
